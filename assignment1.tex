@@ -1,0 +1,137 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+
+
+\DeclareMathOperator*{\Res}{Res}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+
+\renewcommand\thesectiondis{\arabic{section}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+\def\inputGnumericTable{}                                 %%
+
+\lstset{
+frame=single, 
+breaklines=true,
+columns=fullflexible
+}
+
+
+
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+
+
+\vspace{3cm}
+
+\title{
+%	\logo{
+Problem 12.13.4.1
+%	}
+}
+\author{Aditya Gupta$^{*}$% <-this % stops a space
+\thanks{The author is a first year Biotechnology student at IIT Hyderabad}}
+
+\begin{document}
+
+\maketitle
+\parindent8pt
+The question given is from class 12th \textbf{NCERT}, and is the 1st question of 4th exercise of 13th chapter. The question is given as below:-\\
+\textit{State which of the following are not the probability distributions of a random
+variable. Give reasons for your answer}.
+
+\begin{enumerate}
+	\item \begin{tabular}{|c|c|c|c|} 
+   \hline
+   X & 0 & 1 & 2 \\ 
+   \hline
+   P(X) & 0.4 & 0.4 & 0.2 \\ 
+   \hline
+  \end{tabular}
+
+   \item \begin{tabular}{|c|c|c|c|c|c|} 
+   \hline
+   X & 0 & 1 & 2 & 3 & 4 \\ 
+   \hline
+   P(X) & 0.1 & 0.5 & 0.2 & -0.1 & 0.3 \\ 
+   \hline
+  \end{tabular}
+
+	\item \begin{tabular}{|c|c|c|c|} 
+   \hline
+   Y & -1 & 0 & 1 \\ 
+   \hline
+   P(Y) & 0.6 & 0.1 & 0.2 \\ 
+   \hline
+   \end{tabular}
+
+  \item \begin{tabular}{|c|c|c|c|c|c|} 
+   \hline
+   X & 0 & 1 & 2 & 3 & 4 \\ 
+   \hline
+   P(Z) & 0.3 & 0.2 & 0.4 & 0.1 & 0.05 \\ 
+   \hline
+   \end{tabular}
+  \end{enumerate}
+  
+  Solution of the problem:-
+  The sum of all the probabilities in a probability distribution must be one. Mathematically: If the probability distribution of a random variable X is the system of numbers and is represented as:-
+  
+  \begin{tabular}{|c|c|c|c|c|} 
+	\hline
+	X & $x_1$ & $x_2$ & . & $x_n$ \\ 
+	\hline
+	P(X) & $p_1$ & $p_2$ & . & $p_n$ \\ 
+	\hline
+	\end{tabular}
+	
+	where, \(p_i>0, \sum_{i=1}^{n}(p_i) =1, i=1,2,3...n\)
+  
+
+\parindent6pt Hence for all cases the sum of P(X) should be equal to one.
+\begin{enumerate}
+
+	\item \(\sum_{i=0}^{2}(p_i) =0.4+0.4+0.2= 1,\) \\
+  \emph{This means it is a probability distribution.}
+
+   \item \(\sum_{i=0}^{4}(p_i) =0.1+0.5+0.2-0.1+0.3= 1,\) \\
+  \emph{This means it is a probability distribution.}
+  
+   \item \(\sum_{i=-1}^{1}(p_i) =0.6+0.1+0.2= 0.9,\) \\
+  \emph{This means it is NOT a probability distribution.}
+  
+   \item \(\sum_{i=0}^{4}(p_i) =0.3+0.2+0.4+0.1+0.05= 1.05,\) \\
+  \emph{This means it is NOT a probability distribution.}
+  
+\end{enumerate}
+
+
+\end{document}
+
