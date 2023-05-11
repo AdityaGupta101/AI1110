@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  8 MAY 2023 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  11 MAY 2023 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1370,8 +1370,7 @@ Package hyperref Info: Link coloring OFF on input line 105.
 \c@lemma=\count344
 \c@example=\count345
 \c@rem=\count346
-
-(/Users/adityagupta/Desktop/Probability/table1.tex
+ (./table1_1.tex
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
 .
 
@@ -1406,52 +1405,42 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/ts1tx
 r.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)
-Underfull \hbox (badness 10000) in paragraph at lines 2--10
-
+)) (./table1_2.tex) (./table1_3.tex) (./table1_4.tex)
+Overfull \hbox (18.81252pt too wide) detected at line 354
+[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--28
-
- []
-
-) (/Users/adityagupta/Desktop/Probability/table2.tex) [1{/opt/homebrew/Cellar/t
-exlive/20230313/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homeb
-rew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/base/8r.enc}
+[1{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc
+/dvips/base/8r.enc}
 
 
-]
-(./assignment1.aux)
+] (./assignment1.aux)
 Package rerunfilecheck Info: File `assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29947 strings out of 476025
- 602488 string characters out of 5780034
- 1878388 words of memory out of 5000000
- 49742 multiletter control sequences out of 15000+600000
- 582918 words of font info for 176 fonts, out of 8000000 for 9000
+ 29964 strings out of 476025
+ 602368 string characters out of 5780034
+ 1881388 words of memory out of 5000000
+ 49754 multiletter control sequences out of 15000+600000
+ 579904 words of font info for 172 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,10n,96p,1179b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,8n,96p,1179b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/tx
 fonts/rtxmi.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/t
 ype1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf
--dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/2023031
-3/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/te
-xlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew
-/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></op
-t/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmri
-8a.pfb>
-Output written on assignment1.pdf (1 page, 46417 bytes).
+-dist/fonts/type1/public/txfonts/rtxsc.pfb></opt/homebrew/Cellar/texlive/202303
+13/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/t
+exlive/20230313/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/home
+brew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
+</opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on assignment1.pdf (1 page, 48072 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

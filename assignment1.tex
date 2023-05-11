@@ -88,7 +88,7 @@
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
-\def\inputGnumericTable{}                                 %%
+\def\inputGtables/numericTable{}                                 %%
 
 \lstset{
 %language=C,
@@ -243,7 +243,7 @@ BT22BTECH11001
 % 
 % *** Note that you probably will NOT want to include the author's ***
 % *** name in the headers of peer review papers.                   ***
-% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% You can use \ifCLASSOPTIONpeerreview for al compilation here if
 % you desire.
 
 
@@ -290,45 +290,69 @@ BT22BTECH11001
 \textbf{Question:}
 State which of the following are not the probability distributions of a random
 variable. Give reasons for your answer.
-\begin{table}[h]
-    \input{/Users/adityagupta/Desktop/Probability/table1.tex}
+ \begin{enumerate}
+  \item
+\begin{table}[h! ]
+ \caption{Part1}
+\label{table : 1}
+\input{table1_1.tex}
+ \end{table}
+ 
+ \item
+\begin{table}[h! ]
+  \label{table:2}
+  \caption{Part2}
+  \input{table1_2.tex}
 \end{table}
 
- \textbf{Solution:} If the probability distribution of a random variable X is represented as:-
+\item
 \begin{table}[h]
-    \input{/Users/adityagupta/Desktop/Probability/table2.tex}
+  \caption{Part3}
+  \label{table:3}
+  \input{table1_3.tex}
 \end{table}
 
-	then, 
+\item
+\begin{table}[h]
+  \caption{Part4}
+  \label{table:4}
+  \input{table1_4.tex}
+\end{table}
+\end{enumerate}
+
+ \textbf{Solution:} The probability distribution of a random variable X follows this condition:- 
     \begin{align}
-            p_i>0, \sum_{i=1}^{n}(p_i) =1, i=1,2,3...n.
+    \label{eq : 1}
+            \pr{X=i}>0, \sum_{i=1}^{n}\pr{X=i} =1, i=1,2,3...n.
     \end{align}
-Hence for all cases the sum of P(X) should be equal to one. The second condition is that probabilities of all events must be between 0 and 1, both inclusive.
+Hence for all cases the sum of \pr{X} should be equal to one. The second  is that probabilities of all events must be between 0 and 1, both inclusive.
     i.e.,
     \begin{align}
-      0<p_i<1, i=1,2,3...n.
+    \label{eq : 2}
+      0<\pr{X=i}<1, i=1,2,3...n.
 \end{align}
+
 \begin{enumerate}
 	\item 
     \begin{align}
-     \sum_{i=0}^{2}(p_i) =0.4+0.4+0.2 = 1 
+     \sum_{i=0}^{2}\pr{X=i} =0.4+0.4+0.2 = 1 
     \end{align} 
-  Satisfies both (1) and (2), it is a probability distribution.
+  Satisfies both\eqref{eq : 1} and\eqref{eq : 2}, it is a probability distribution.
    \item 
    \begin{align}
-   \sum_{i=0}^{4}(p_i) =0.1+0.5+0.2-0.1+0.3 = 1
+   \sum_{i=0}^{4}\pr{X=i} =0.1+0.5+0.2-0.1+0.3 = 1
    \end{align}
-Satisfies (1) but does not satisfy (2) as $P(3)<0. $ Hence NOT a probability distribution.  
+Satisfies\eqref{eq : 1} but does not satisfy\eqref{eq : 2} as $P(3)<0. $ Hence NOT a probability distribution.  
  \item 
    \begin{align}
-       \sum_{i=-1}^{1}(p_i) =0.6+0.1+0.2= 0.9
+       \sum_{i=-1}^{1}\pr{X=i} =0.6+0.1+0.2= 0.9
    \end{align}
-  Condition (1) not satisfied, it is NOT a probability distribution. 
+\eqref{eq : 1} not satisfied, it is NOT a probability distribution. 
    \item 
    \begin{align}
-       \sum_{i=0}^{4}(p_i) =0.3+0.2+0.4+0.1+0.05= 1.05
+       \sum_{i=0}^{4}\pr{X=i} =0.3+0.2+0.4+0.1+0.05= 1.05
    \end{align}
-  Condition (1) not satisfied, it is NOT a probability distribution.
+\eqref{eq : 1} not satisfied, it is NOT a probability distribution.
 \end{enumerate}
   
 % For peer review papers, you can put extra information on the cover
