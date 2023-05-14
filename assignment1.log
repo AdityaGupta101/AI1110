@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  13 MAY 2023 00:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  14 MAY 2023 12:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/adityagupta/Desktop/assignment1/assignment1.tex
-(/Users/adityagupta/Desktop/assignment1/assignment1.tex
+**/Users/adityagupta/Desktop/git_repo/AI1110/assignment1.tex
+(/Users/adityagupta/Desktop/git_repo/AI1110/assignment1.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -941,7 +941,7 @@ Package hyperref Info: Link coloring OFF on input line 105.
 \c@lemma=\count344
 \c@example=\count345
 \c@rem=\count346
- (./tables/table1_1.tex
+ (./table/table1_1.tex
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2.
  (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
@@ -961,7 +961,7 @@ File: utxsyc.fd 2000/12/15 v3.1
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2.
  (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)) (./tables/table1_2.tex) (./tables/table1_3.tex) (./tables/table1_4.tex)
+)) (./table/table1_2.tex) (./table/table1_3.tex) (./table/table1_4.tex)
 Overfull \hbox (18.81252pt too wide) detected at line 354
 []
  []
@@ -975,12 +975,12 @@ Package rerunfilecheck Info: File `assignment1.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  29966 strings out of 476025
- 602602 string characters out of 5780034
+ 602597 string characters out of 5780034
  1881388 words of memory out of 5000000
  49754 multiletter control sequences out of 15000+600000
  579904 words of font info for 172 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,8n,96p,1218b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,8n,96p,1222b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on assignment1.pdf (1 page, 48072 bytes).
 PDF statistics:
