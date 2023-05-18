@@ -1,0 +1,72 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\title{Random Song Shuffler - Code Report}
+\author{Aditya Gupta (BT22BTECH11001)}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+The Random Song Shuffler is a Python program that plays a collection of audio files in a random order. It utilizes a user interface (UI) created using the Tkinter library. This report provides an overview of the code implementation, including details on the steps used to create the random song shuffler and a screenshot of the generated UI.
+
+\section{Code Overview}
+The code consists of the following main components:
+
+\begin{enumerate}
+  \item Importing the necessary libraries:
+    \begin{itemize}
+      \item \texttt{os} library: to interact with the operating system and access the audio files in a directory.
+      \item \texttt{random} library: to shuffle the list of audio files.
+      \item \texttt{tkinter} library: to create the UI.
+      \item \texttt{messagebox} module from \texttt{tkinter}: to display messages.
+      \item \texttt{playsound} library: to play the audio files.
+    \end{itemize}
+  
+  \item Defining the audio directory:
+    \begin{itemize}
+      \item The \texttt{audio\_directory} variable is set to the path where the audio files are located. This path needs to be updated to the correct directory path.
+    \end{itemize}
+  
+  \item Creating the song shuffler:
+    \begin{itemize}
+      \item The code starts by retrieving a list of audio files in the specified directory using the \texttt{os.listdir()} function. Only files with ".mp3" or ".wav" extensions are considered.
+      \item The \texttt{random.shuffle()} function is used to randomly shuffle the list of audio files.
+      \item The \texttt{current\_song\_index} variable keeps track of the currently playing song.
+    \end{itemize}
+  
+  \item Defining the UI:
+    \begin{itemize}
+      \item The Tkinter library is used to create a main application window.
+      \item Three buttons are created: "Play," "Stop," and "Next."
+      \item Each button is associated with a specific function (\texttt{play\_song()}, \texttt{stop\_song()}, and \texttt{next\_song()}).
+    \end{itemize}
+  
+  \item Button Functions:
+    \begin{itemize}
+    \item The \texttt{play\_song()} function plays the current song using the \texttt{playsound} library. It retrieves the path of the current song based on \\
+      the \texttt{current\_song\_index}.
+            \item The \texttt{stop\_song()} function displays a message box indicating that the song has been stopped.
+      \item The \texttt{next\_song()} function increments the \texttt{current\_song\_index} and plays the next song if available. If there are no more songs, a message box displays the end of the playlist.
+    \end{itemize}
+  
+  \item Running the UI:
+    \begin{itemize}
+      \item The \texttt{window.mainloop()} function runs the main event loop, allowing the UI to be displayed and interacted with.
+    \end{itemize}
+\end{enumerate}
+
+\section{Screenshot of the UI}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.6\textwidth]{hi.png}
+  \caption{Screenshot of the Random Song Shuffler UI}
+\end{figure}
+
+\section{Conclusion}
+The Random Song Shuffler is a Python program that uses Tkinter to create a user interface for playing a collection of audio files in a random order. This report provided an overview of the code implementation, including a step-by-step description and a screenshot of the generated UI.
+
+Please note that the report assumes the code has been executed successfully and all necessary dependencies and file paths have been properly set up.
+
+\end{document}
