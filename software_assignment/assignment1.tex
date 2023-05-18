@@ -18,7 +18,7 @@ The code consists of the following main components:
   \item Importing the necessary libraries:
     \begin{itemize}
       \item \texttt{os} library: to interact with the operating system and access the audio files in a directory.
-      \item \texttt{random} library: to shuffle the list of audio files.
+      \item \texttt{numpy} library: to shuffle the list of audio files.
       \item \texttt{tkinter} library: to create the UI.
       \item \texttt{messagebox} module from \texttt{tkinter}: to display messages.
       \item \texttt{playsound} library: to play the audio files.
@@ -32,7 +32,7 @@ The code consists of the following main components:
   \item Creating the song shuffler:
     \begin{itemize}
       \item The code starts by retrieving a list of audio files in the specified directory using the \texttt{os.listdir()} function. Only files with ".mp3" or ".wav" extensions are considered.
-      \item The \texttt{random.shuffle()} function is used to randomly shuffle the list of audio files.
+      \item The \texttt{numpy.np.shuffle()} function is used to randomly shuffle the list of audio files.
       \item The \texttt{current\_song\_index} variable keeps track of the currently playing song.
     \end{itemize}
   
@@ -67,6 +67,5 @@ The code consists of the following main components:
 \section{Conclusion}
 The Random Song Shuffler is a Python program that uses Tkinter to create a user interface for playing a collection of audio files in a random order. This report provided an overview of the code implementation, including a step-by-step description and a screenshot of the generated UI.
 
-Please note that the report assumes the code has been executed successfully and all necessary dependencies and file paths have been properly set up.
 
 \end{document}
